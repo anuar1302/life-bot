@@ -3,8 +3,8 @@ import requests
 import time
 from datetime import datetime
 
-TOKEN = os.getenv("8782638022:AAGIcj7aZipP5xNa7y26Xs3ah5h4YxE2yaI")
-SUPABASE_KEY = os.getenv("sb_publishable_S2ZI9GCQr5ZugXsXrpqPvw_y5UmnoQG")
+TOKEN = "8782638022:AAGIcj7aZipP5xNa7y26Xs3ah5h4YxE2yaI"
+SUPABASE_KEY = "sb_publishable_S2ZI9GCQr5ZugXsXrpqPvw_y5UmnoQG"
 
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 SUPABASE_URL = "https://dsbzlhemjgcayidwahgf.supabase.co"
